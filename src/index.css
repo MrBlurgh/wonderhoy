@@ -1,0 +1,153 @@
+#allKnowingDiv {
+    width: 50vw;
+    border: 5px solid rgb(27, 27, 27);
+    padding: 1vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(243, 237, 229);
+    font-family: "Merchant-Copy";
+    caret-color: transparent;
+}
+
+#biggerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    position: relative;
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: contain;
+}
+
+@font-face {
+    font-family: "Merchant-Copy";
+    src: url('./assets/Merchant Copy.ttf');
+}
+
+h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+#me {
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    border: 5px solid rgb(27, 27, 27);
+}
+
+#homeTopDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    height: 22vw;
+}
+
+#homeTopDiv h1 {
+    text-align: center;
+    margin: 0;
+    flex: 1 1 auto;
+    word-wrap: break-word;
+    margin-right: 2vw;
+}
+
+#homeTextDiv {
+    height: auto;
+    margin-left: 2.5vw;
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+#artTextDiv {
+    height: auto;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-bottom: 2.5vw;
+    text-align: center;
+}
+
+#homeText {
+    font-size: 2.5vw;
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
+}
+
+#info {
+    list-style-type: none;
+}
+
+#socialsTitle {
+    font-size: 6vw;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    border: None;
+    border-radius: 8px;
+    background-color: rgb(233, 222, 222);
+    color: rgb(0, 0, 0);
+    margin-top: 2vw;
+    width: 80%;
+    height: 5vw;
+    font-size: 2vw;
+    font-family: "Merchant-Copy";
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(150, 138, 138);
+    cursor: pointer;
+}
+
+#socialTextDiv {
+    height: auto;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+#artImg {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(27, 27, 27);
+    margin: 2vw 0; 
+    margin-top: 1vw;
+}
+
+#otherTopDiv {
+    margin-bottom: 3vw;
+    height: 6vw;
+}
+
+#pages {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+@media (max-width: 450px) {
+    #artImg { margin-top: 2vw; }
+    #homeText { font-size: 8vw; }
+    #otherTopDiv { margin-top: 3vw; }
+    #artTextDiv { margin-right: 8vw;  margin-left: 8vw;}
+    body {  background-size: auto 100vh; }
+    #allKnowingDiv { width: 80vw; padding: 2vw; }
+    #me { width: 40vw; height: 40vw; }
+    #homeTopDiv { height: auto; flex-direction: column; gap: 1vw; }
+    h1 { font-size: 8vw; }
+    button { width: 90%; height: 8vw; font-size: 4vw; }
+    #socialTopDiv { height: auto; flex-direction: column; gap: 1vw; }
+    #homeTextDiv { margin-left: 1vw; margin-top: 4vw; font-size: 8vw;}
+}

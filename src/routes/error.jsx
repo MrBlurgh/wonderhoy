@@ -8,7 +8,7 @@ export default function ErrorPage() {
 
     return (
         <div id="errorPage">
-            <h1>Fuck.</h1>
+            <h1>You done fucked it up :(</h1>
             <p>
                 <i>{error.statusText || error.message}</i>
             </p>
