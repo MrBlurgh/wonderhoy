@@ -24,7 +24,7 @@ export default function Home() {
                     <li>Program also sometimes maybe!</li>
                     <li>Make music</li>
                 </ul>
-                <p id="homeText">While I'm at it, here's some specific things I like in particular! These may or may not be related to my previously states hobbies.</p>
+                <p id="homeText">While I'm at it, here's some specific things I like in particular! These may or may not be related to my previously stated hobbies.</p>
                 <ul>
                     <li>Favorite games include Project Sekai, the Persona games, OMORI, Project Diva, and Team Fortress 2</li>
                     <li>Oyasumi Punpun (duh), Bungou Stray Dogs, JoJo</li>
