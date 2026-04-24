@@ -33,6 +33,7 @@ export default function Home() {
                     <li>Music in general</li>
                 </ul>
                 <p id="homeText">Some songs I enjoy are Omajinai by NAKISO, Maegamist by MARETU, and Foolish Father by Weezer. (WE, yes WE, all fw Weezer)</p>
+                <br></br>
                 <p id="homeText">Anyways, I'm not sure what else to put here so... I'll leave you to the other pages.</p>            </div>
         </>
     )
